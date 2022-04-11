@@ -28,7 +28,6 @@ body {
     margin: 10px;
     overflow: hidden;
 }
-
 .flexbox-item-0 {
     min-height: 200px;
 }
@@ -165,8 +164,11 @@ hr{
 
 .profile {
     max-width: 350px;
+    transition: margin 0.3s ease-in-out;
 }
-
+.profile:hover{
+    margin-top: -5px;
+}
 .profile-img img {
     max-width: 175px;
     height: auto;
@@ -223,6 +225,8 @@ hr{
     padding-right: 15px; 
     padding-top: 7px;
 }
+
+
 /* End of Go Back Button CSS */
 
 /*Media Queries*/
